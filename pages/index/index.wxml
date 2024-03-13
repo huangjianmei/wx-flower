@@ -1,0 +1,23 @@
+<view class="swiper">
+  <swiper 
+    autoplay 
+    indicator-dots
+    interval="2000"
+    circular
+    indicator-active-color="#F3514F"
+    indicator-color="#fff"
+  >
+    <swiper-item>
+      <image src="/assets/banner/banner-1.jpg"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/banner/banner-2.jpg"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/banner/banner-3.jpg"/>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="info"></view>
+<view class="good-nav"></view>
+<view class="good-hot"></view>
