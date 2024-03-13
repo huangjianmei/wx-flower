@@ -19,6 +19,22 @@
   display: flex;
   justify-content: space-between;
   font-size: 24rpx;
+  view{
+    display: flex;
+    justify-content: space-between;
+    icon{
+      color:#ccc;
+      padding-right:6rpx;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
 .good-nav{
   display: flex;

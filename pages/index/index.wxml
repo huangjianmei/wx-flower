@@ -19,10 +19,26 @@
   </swiper>
 </view>
 <view class="info">
-  <text user-select>同城配送</text>
+  <view>
+    <icon class="icon-tongchengpeisong iconfont "></icon>
+    <text user-select>同城配送</text>
+  </view>
+  <view>
+    <icon class="icon-hangyelongtou iconfont"></icon>
+    <text user-select>行业龙头</text>
+  </view>
+  <view>
+    <icon class="icon-banxiaoshi iconfont"></icon>
+    <text user-select>半小时送达</text>
+  </view>
+  <view>
+    <icon class="icon-wuxinghaoping iconfont"></icon>
+    <text user-select>五星好评</text>
+  </view>
+<!--   
   <text user-select>行业龙头</text>
   <text user-select>半小时送达</text>
-  <text user-select>五星好评</text>
+  <text user-select>五星好评</text> -->
 </view>
 <view class="good-nav">
   <view>
@@ -81,3 +97,9 @@
     </view>
   </scroll-view>
 </view>
+
+<view>
+
+<icon class="icon-shouye"/>
+</view>
+
