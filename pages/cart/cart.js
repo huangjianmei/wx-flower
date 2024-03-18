@@ -46,7 +46,13 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh() {
-      
+      console.log("监听用户下拉动作")
+      this.setData({
+        numList:this.data.numList.slice(0,3)
+      })
+      if(this.data.numList.length===3){
+        wx.stopPullDownRefresh()
+      }
     },
 
     /**
