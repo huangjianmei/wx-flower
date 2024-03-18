@@ -1,6 +1,14 @@
+page{
+  height: 500px;
+}
 .box{
-  width:375rpx;
+  width:100%;
   height:400rpx;
   background: yellowgreen;
   color:red;
+  text-align: center;
+  line-height: 400rpx;
+  &:nth-child(2n){
+    background-color: skyblue;
+  }
 }

@@ -1,1 +1,1 @@
-<view class="box">枫枫</view>
+<view class="box" wx:for="{{numList}}" wx:key="index">{{item}}</view>

@@ -1,12 +1,13 @@
-// pages/cart/cart.js
+// pages/detail/detail.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-      numList:[1,2,3]
+
     },
+
     /**
      * 生命周期函数--监听页面加载
      */
@@ -53,19 +54,7 @@ Page({
      * 页面上拉触底事件的处理函数
      */
     onReachBottom() {
-      wx.showLoading({
-        title: '数据加载中...',
-      })
-      setTimeout(()=>{
-        console.log("======++下拉")
-        const lastNum=this.data.numList[this.data.numList.length-1];
-        const lastArr=[lastNum+1,lastNum+2,lastNum+3];
-        this.setData({
-          numList:[...this.data.numList,...lastArr]
-        })
-        wx.hideLoading()
-      },1000)
-     
+
     },
 
     /**

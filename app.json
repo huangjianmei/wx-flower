@@ -1,10 +1,11 @@
 {
     "pages": [
-        "pages/index/index",
-        "pages/list/list",
+      "pages/cart/cart",
+      "pages/index/index",
+      "pages/profile/profile",
         "pages/cate/cate",
-        "pages/profile/profile",
-        "pages/cart/cart"
+        "pages/list/list",
+        "pages/detail/detail"
     ],
     "window": {
         "navigationBarBackgroundColor": "#F3514F",

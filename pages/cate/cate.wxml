@@ -1,2 +1,13 @@
-<!--pages/cate/cate.wxml-->
-<text>pages/cate/cate.wxml</text>
+<view>
+  <view class="item" wx:for="{{list}}" wx:key="id">{{item.title}}</view>
+</view>
+<button bindtap="deleteDate">删除按钮</button>
+<button plain size="mini" bindtap="setStorage" type="primary">存储</button>
+<button plain size="mini" bindtap="getStorage" type="default">获取</button>
+<button plain size="mini" bindtap="removeStorage" type="warn">删除</button>
+<button plain size="mini" bindtap="clearStorage" type="primary">清空</button>
+<view style="height:100rpx"></view>
+<button plain size="mini" bindtap="handler1" type="primary">navigateTo</button>
+<button plain size="mini" bindtap="handler2" type="default">redirectTo</button>
+<button plain size="mini" bindtap="handler3" type="warn">switchTab</button>
+<button plain size="mini" bindtap="handler4" type="primary">relaunch</button>

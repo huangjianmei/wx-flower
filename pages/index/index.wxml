@@ -98,8 +98,11 @@
   </scroll-view>
 </view>
 
-<view>
+<view class="bg-image">
 
-<icon class="icon-shouye"/>
 </view>
+<button type="primary" size="mini" bind:tap="handler">绑定事件</button>
+<button type="warn" size="mini" bindtap="handler">绑定事件</button>
+
+<input type="text" bindinput="handlerInput"/>
 
