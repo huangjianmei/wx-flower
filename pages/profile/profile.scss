@@ -1,0 +1,12 @@
+.scroll-y{
+  height: 100vh;
+  view{
+    height: 500rpx;
+    background: yellowGreen;
+    text-align: center;
+    line-height: 200px;
+    &:nth-child(odd){
+      background: pink;
+    }
+  }
+}
