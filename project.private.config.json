@@ -9,6 +9,13 @@
         "miniprogram": {
             "list": [
                 {
+                    "name": "购物车",
+                    "pathName": "pages/cart/cart",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
                     "name": "模拟强制更新",
                     "pathName": "pages/cate/cate",
                     "query": "",

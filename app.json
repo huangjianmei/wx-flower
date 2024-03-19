@@ -1,9 +1,9 @@
 {
     "pages": [
-      "pages/cart/cart",
-      "pages/index/index",
-      "pages/profile/profile",
-        "pages/cate/cate",
+      "pages/cate/cate",
+        "pages/index/index",
+        "pages/cart/cart",
+        "pages/profile/profile",
         "pages/list/list",
         "pages/detail/detail"
     ],
@@ -43,5 +43,12 @@
       ]
     },
     "style": "v2",
-    "sitemapLocation": "sitemap.json"
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+      "custom-checkbox":"./components/custom-checkbox/custom-checkbox",
+      "custom01":"./components/custom01/custom01",
+      "custom02":"./components/custom02/custom02",
+      "custom03":"./components/custom03/custom03",
+      "custom04":"./components/custom04/custom04"
+    }
 }

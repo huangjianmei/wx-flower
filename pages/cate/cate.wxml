@@ -11,3 +11,8 @@
 <button plain size="mini" bindtap="handler2" type="default">redirectTo</button>
 <button plain size="mini" bindtap="handler3" type="warn">switchTab</button>
 <button plain size="mini" bindtap="handler4" type="primary">relaunch</button>
+<custom01>
+  <text slot="slot-top">顶部具名插槽</text>
+  我是子节点内容
+  <text slot="slot-bottom">底部具名插槽</text>
+</custom01>

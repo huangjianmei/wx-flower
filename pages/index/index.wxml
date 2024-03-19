@@ -97,6 +97,12 @@
     </view>
   </scroll-view>
 </view>
+<view>自定义组件</view>
+<custom-checkbox label="我已阅读并同意" position="right">
+  我已阅读并同意1111
+</custom-checkbox>
+<view>自定义组件</view>
+<custom-checkbox position="left">匿名提交222</custom-checkbox>
 
 <view class="bg-image">
 

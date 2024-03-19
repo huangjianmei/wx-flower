@@ -1,0 +1,2 @@
+
+<button type="success" bindtap="sendData" plain>传递参数</button>

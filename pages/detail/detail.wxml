@@ -1,2 +1,3 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<text>{{name}}</text>
+<button bindtap="updateName">更新name</button>

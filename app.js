@@ -2,6 +2,7 @@
 App({
 
   onLaunch(){
+    console.log("🏅小程序应用 --- onLaunch")
     const updateManager = wx.getUpdateManager()
 
     updateManager.onCheckForUpdate(function (res) {
@@ -26,5 +27,11 @@ App({
       // 新版本下载失败
     })
 
+  },
+  onShow(){
+    console.log("🏅小程序应用 --- onShow")
+  },
+  onHide(){
+    console.log("🏅小程序应用 --- onHide")
   }
 })
