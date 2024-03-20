@@ -1,2 +1,0 @@
-<!--components/custom06/custom06.wxml-->
-<view class="extend-class box">通过外部样式类修改组件样式</view>

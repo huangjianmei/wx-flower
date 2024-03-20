@@ -1,9 +1,2 @@
-<custom02 class="child" label="标题"></custom02>
-<custom03 bind:myEvent="handlerGetData"></custom03>
-<button bindtap="getChild">获取子组件实例对象</button>
-
-<custom04 wx:if="{{num===1}}"></custom04>
-<button bindtap="handlerDel">销毁自定义组件</button>
-<button bindtap="handler">navigate to list</button>
-<button bindtap="handler1">redirect to list</button>
-<navigator url="/pages/detail/detail">go to detail</navigator>
+<!--pages/cart/cart.wxml-->
+<text>pages/cart/cart.wxml</text>

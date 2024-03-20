@@ -1,6 +1,2 @@
-<!--components/custom01/custom01.wxml-->
-<view>
-  <slot name="slot-top"></slot>
-  <slot />
-  <slot name="slot-bottom"></slot>
-</view>
+
+<van-button type="primary">主要按钮1</van-button>
