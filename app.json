@@ -50,6 +50,7 @@
       "custom02":"./components/custom02/custom02",
       "custom03":"./components/custom03/custom03",
       "custom04":"./components/custom04/custom04",
-      "custom05":"./components/custom05/custom05"
+      "custom05":"./components/custom05/custom05",
+      "custom06":"./components/custom06/custom06"
     }
 }

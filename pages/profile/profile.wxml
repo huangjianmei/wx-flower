@@ -12,3 +12,4 @@
   <view wx:for="{{numList}}" wx:key="index">{{item}}</view>
 </scroll-view> -->
 <custom05></custom05>
+<custom06 extend-class="my-class"></custom06>
