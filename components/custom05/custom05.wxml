@@ -1,0 +1,4 @@
+<view>{{label}}</view>
+<view>{{name}}</view>
+<view>{{obj.name}}--{{obj.age}}</view>
+<button bindtap="updateName">更新数据</button>

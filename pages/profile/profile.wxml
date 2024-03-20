@@ -1,4 +1,4 @@
-<scroll-view 
+<!-- <scroll-view 
   scroll-y 
   class="scroll-y"
   lower-threshold="100"
@@ -10,4 +10,5 @@
   refresher-triggered="{{isRefresh}}"
 >
   <view wx:for="{{numList}}" wx:key="index">{{item}}</view>
-</scroll-view>
+</scroll-view> -->
+<custom05></custom05>
